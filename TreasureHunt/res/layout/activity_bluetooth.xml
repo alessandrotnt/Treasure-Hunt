@@ -1,0 +1,91 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:keepScreenOn="true"
+    tools:context="com.example.treasurehunt.MainActivity" >	
+    
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerHorizontal="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/treasure" >
+	</ImageView>
+	
+    <ImageView android:layout_width="360dp"
+    	android:layout_height="360dp"
+        android:id="@+id/imageView2"
+        android:src="@drawable/bl"
+        android:layout_centerInParent="true"
+        android:scaleType="centerCrop">
+	</ImageView>
+	
+    <ImageView android:layout_width="360dp"
+    	android:layout_height="360dp"
+        android:id="@+id/imageView3"
+        android:src="@drawable/treasurechest"
+        android:layout_centerInParent="true"
+        android:scaleType="centerCrop">
+	</ImageView>
+
+    <Button
+        android:id="@+id/button3"
+        android:background="@drawable/hide_button"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="122dp"
+        android:text="@string/button3_string"
+        android:textAllCaps="false"
+        android:textAlignment="gravity"
+        android:gravity="center"
+        android:textSize="35sp" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/button2"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="22dp"
+        android:background="@drawable/trova_butt"
+        android:gravity="center"
+        android:text="@string/button1_string"
+        android:textAlignment="gravity"
+        android:textAllCaps="false"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/trova_butt"
+        android:gravity="center"
+        android:text="@string/button2_string"
+        android:textAlignment="gravity"
+        android:textAllCaps="false"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/text_window"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="42dp"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+    
+    <ProgressBar
+        android:id="@+id/progressbar"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"/>
+    
+</RelativeLayout>
