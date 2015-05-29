@@ -11,7 +11,7 @@ In order to import the project, create a new Eclipse workspace that must contain
 -Appcompat_v7 folder
 -OpenCV-android-sdk folder
 
-Then: file-->import-->existing projects into workspace and import (one at a time) all the three previously mentioned folders as root directories.
+Then: file-->import-->general-->existing projects into workspace and import (one at a time) all the three previously mentioned folders as root directories.
 
 After that, check if project-->properties-->android "Library" section contains the required references to appcompat_v7 and OpenCV library.
 
